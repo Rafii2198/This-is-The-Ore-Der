@@ -1,0 +1,43 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "thisistheoreder:Core.obj"
+  },
+  "variants": {
+    "inventory": [
+      {
+        "transform": {
+          "thirdperson_lefthand": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 0.1, 0.2, 0.01 ],
+            "scale": 0.18
+          },
+          "thirdperson_righthand": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 0.1, 0.2, 0.01 ],
+            "scale": 0.18
+          },
+          "gui": {
+            "rotation": [ { "x": 0 }, { "y": 22.3 }, { "z": 0 } ],
+            "translation": [ 0.15, 0.1, 0 ],
+            "scale": 0.25
+          },
+          "firstperson_righthand": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 0, 0, 0 ],
+            "scale": 0.18
+          },
+          "firstperson_lefthand": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "translation": [ 0, 0, 0 ],
+            "scale": 0.18
+          },
+          "ground": {
+            "rotation": [ { "x": 0 }, { "y": 0 }, { "z": 0 } ],
+            "scale": 0.15
+          }
+        }
+      }
+    ]
+  }
+}
